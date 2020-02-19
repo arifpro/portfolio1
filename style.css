@@ -17,13 +17,14 @@ h1{
 .half-width img{
     width: 70%;
 }
-.hire-btn{
-    font-size: 15px;
-    font-weight: bold;
-    background-color: cornflowerblue;
+.link-btn{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
     border-radius: 10px;
-    /* margin: 10px; */
-    padding: 10px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
 }
 .top-banner{
     /* border: 1px solid red; */
@@ -32,4 +33,5 @@ h1{
 }
 section{
     height: 500px;
+    page-break-inside: 150px;
 }
