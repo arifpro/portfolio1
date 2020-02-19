@@ -14,6 +14,9 @@ p{
 .orange-highlight{
     color: orange;
 }
+.pad-left{
+    padding-left: 20px;
+}
 .half-width{
     width: 40%;
     float: left;
@@ -21,6 +24,7 @@ p{
     padding-left: 2%;
 }
 .half-width img{
+    padding-top: 20px;
     width: 100%;
 }
 .link-btn{
@@ -67,9 +71,16 @@ section{
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+footer{
+    margin-top: 70px;
+    padding: .1px;
+    text-weight: 700;
+    color: white;
+    background-color: black;
+}
 footer p{
     text-align: center;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 
