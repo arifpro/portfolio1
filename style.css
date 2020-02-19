@@ -3,7 +3,13 @@ body{
     margin: 0;
 }
 h1{
+    font-size: 50px;
+}
+h2{
     font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .name-highlight{
     color: orange;
@@ -34,4 +40,8 @@ h1{
 section{
     height: 500px;
     page-break-inside: 150px;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
 }
