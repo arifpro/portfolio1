@@ -1,0 +1,35 @@
+body{
+    font-family: 'Krona One', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 43%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 70%;
+}
+.hire-btn{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    /* margin: 10px; */
+    padding: 10px;
+}
+.top-banner{
+    /* border: 1px solid red; */
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
