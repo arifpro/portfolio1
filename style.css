@@ -42,7 +42,7 @@ p{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
+    height: 700px;
     page-break-inside: 150px;
 }
 .dream-area{
@@ -54,6 +54,7 @@ section{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    /* background-color: white; */
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
@@ -65,16 +66,18 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
+    border-radius: 15px;
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    border-radius: 15px;
 }
 footer{
     margin-top: 70px;
     padding: .1px;
-    text-weight: 700;
+    font-weight: 700;
     color: white;
     background-color: black;
 }
